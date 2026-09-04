@@ -2,6 +2,7 @@ using HarmonyLib;
 
 namespace SteamThreadImprovements.Gameplay.Items;
 
+[ConditionalPatchConfig(ConfigEntryStorage.Category_Gameplay, ConfigEntryStorage.Name_AlarmClockForget)]
 [HarmonyPatch(typeof(ITM_AlarmClock), "Timer", MethodType.Enumerator)]
 internal static class AlarmClockForget
 {

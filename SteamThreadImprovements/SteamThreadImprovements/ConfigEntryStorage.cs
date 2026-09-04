@@ -37,7 +37,6 @@ public static class ConfigEntryStorage
         Cfg_AlarmClockForget = config.Bind(Category_Gameplay, Name_AlarmClockForget, true, Desc_AlarmClockForget);
         Cfg_BaldiNotGetAngryWhilePraising = config.Bind(Category_Gameplay, Name_BaldiNotGetAngryWhilePraising, true, Desc_BaldiNotGetAngryWhilePraising);
         Cfg_BaldiSlowOnActivity = config.Bind(Category_Gameplay, Name_BaldiSlowOnActivity, true, Desc_BaldiSlowOnActivity);
-        Cfg_EventsKeepHappening = config.Bind(Category_Gameplay, Name_EventsKeepHappening, true, Desc_EventsKeepHappening);
         Cfg_DetentionTimerScaleBack = config.Bind(Category_Gameplay, Name_DetentionTimerScaleBack, true, Desc_DetentionTimerScaleBack);
         Cfg_SodaMachineRefillOnNotebook = config.Bind(Category_Gameplay, Name_SodaMachineRefillOnNotebook, true, Desc_SodaMachineRefillOnNotebook);
 
@@ -84,7 +83,6 @@ public static class ConfigEntryStorage
         Name_AlarmClockForget = "Alarm Clock Forget", Desc_AlarmClockForget = "If set to True, the Alarm Clock will clear Baldi's sound queue.",
         Name_BaldiNotGetAngryWhilePraising = "Baldi Not Get Angry While Praising", Desc_BaldiNotGetAngryWhilePraising = "If set to True, Baldi will not get angrier while praising in Endless mode.",
         Name_BaldiSlowOnActivity = "Baldi Slow On Activity", Desc_BaldiSlowOnActivity = "If set to True, Baldi will slow down on activity completion instead of collecting notebooks in Endless mode.",
-        Name_EventsKeepHappening = "Events Keep Happening", Desc_EventsKeepHappening = "If set to True, events will keep happening after all them have gone through in Endless mode.",
         Name_DetentionTimerScaleBack = "Detention Timer Scale Back", Desc_DetentionTimerScaleBack = "If set to True, the detention timer will scale back in Endless mode if the player hasn't gotten detention in a while.",
         Name_SodaMachineRefillOnNotebook = "Soda Machine Refill On Notebook", Desc_SodaMachineRefillOnNotebook = "If set to True, a random soda machine will be refilled whenever a notebook is collected in Endless mode.",
 
@@ -130,7 +128,6 @@ public static class ConfigEntryStorage
         Cfg_AlarmClockForget,
         Cfg_BaldiNotGetAngryWhilePraising,
         Cfg_BaldiSlowOnActivity,
-        Cfg_EventsKeepHappening,
         Cfg_DetentionTimerScaleBack,
         Cfg_SodaMachineRefillOnNotebook,
 

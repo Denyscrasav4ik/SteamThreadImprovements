@@ -6,6 +6,7 @@ using HarmonyLib;
 namespace SteamThreadImprovements.Gameplay.Endless;
 
 [ConditionalPatchConfig(ConfigEntryStorage.Category_Gameplay, ConfigEntryStorage.Name_SodaMachineRefillOnNotebook)]
+[HarmonyPatch]
 internal static class SodaMachineRefillOnNotebook
 {
     public static List<SodaMachine> machines = new List<SodaMachine>();

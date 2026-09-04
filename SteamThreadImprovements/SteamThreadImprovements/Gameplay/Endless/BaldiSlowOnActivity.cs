@@ -3,6 +3,7 @@ using HarmonyLib;
 namespace SteamThreadImprovements.Gameplay.Endless;
 
 [ConditionalPatchConfig(ConfigEntryStorage.Category_Gameplay, ConfigEntryStorage.Name_BaldiSlowOnActivity)]
+[HarmonyPatch]
 internal static class BaldiSlowOnActivity
 {
     internal static bool lastWasNoActivity = false;

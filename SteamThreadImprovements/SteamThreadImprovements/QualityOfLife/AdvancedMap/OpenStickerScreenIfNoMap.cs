@@ -4,6 +4,7 @@ using UnityEngine;
 namespace SteamThreadImprovements.QualityOfLife.AdvancedMap;
 
 [ConditionalPatchConfig(ConfigEntryStorage.Category_Qol, ConfigEntryStorage.Name_OpenStickerScreenIfNoMap)]
+[HarmonyPatch]
 internal static class OpenStickerScreenIfNoMap
 {
     internal static bool openedFromPacketOMatic;

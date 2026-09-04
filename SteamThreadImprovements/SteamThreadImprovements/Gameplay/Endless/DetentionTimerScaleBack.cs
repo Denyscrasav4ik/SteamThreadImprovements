@@ -4,6 +4,7 @@ using UnityEngine;
 namespace SteamThreadImprovements.Gameplay.Endless;
 
 [ConditionalPatchConfig(ConfigEntryStorage.Category_Gameplay, ConfigEntryStorage.Name_DetentionTimerScaleBack)]
+[HarmonyPatch]
 internal static class DetentionTimerScaleBack
 {
     private static float timeSinceLastCatch = 0f;

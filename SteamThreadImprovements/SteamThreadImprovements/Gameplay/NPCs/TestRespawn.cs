@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace SteamThreadImprovements.Gameplay.NPCs;
 
+[ConditionalPatchConfig(ConfigEntryStorage.Category_Gameplay, ConfigEntryStorage.Name_TestRespawn)]
 [HarmonyPatch(typeof(LookAtGuy), "Respawn")]
 internal static class TestRespawn
 {

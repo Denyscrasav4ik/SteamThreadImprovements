@@ -5,6 +5,7 @@ using System.Linq;
 namespace SteamThreadImprovements.QualityOfLife.Stickers;
 
 [ConditionalPatchConfig(ConfigEntryStorage.Category_Qol, ConfigEntryStorage.Name_MakeNoiseOnBlockedSticker)]
+[HarmonyPatch]
 internal static class MakeNoiseOnBlockedSticker
 {
     private static SoundObject? audFail;
