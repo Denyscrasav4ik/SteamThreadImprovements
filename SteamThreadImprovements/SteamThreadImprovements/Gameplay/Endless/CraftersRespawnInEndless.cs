@@ -36,6 +36,9 @@ internal static class CraftersRespawnInEndless
 
         Cell spawnCell = spawnTiles[Random.Range(0, spawnTiles.Count)];
 
+        crafters.state = new ArtsAndCrafters_Waiting(crafters);
+        crafters.behaviorStateMachine.ChangeState(crafters.state);
+
         crafters.gameObject.SetActive(true);
         crafters.Hide(false);
         crafters.Teleport(spawnCell.position);

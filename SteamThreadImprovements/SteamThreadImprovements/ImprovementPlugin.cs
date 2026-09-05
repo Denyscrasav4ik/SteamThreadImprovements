@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 namespace SteamThreadImprovements;
 
-[BepInPlugin("denyscrasav4ik.thedumbfactory.steamthreadimprovements", "Steam Thread Improvements", "1.0.1")]
+[BepInPlugin("denyscrasav4ik.thedumbfactory.steamthreadimprovements", "Steam Thread Improvements", "1.0.2")]
 public class ImprovementPlugin : BaseUnityPlugin
 {
     public static ImprovementPlugin? Instance { get; private set; }
