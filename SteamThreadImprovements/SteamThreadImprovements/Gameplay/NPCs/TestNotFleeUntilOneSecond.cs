@@ -28,6 +28,7 @@ internal static class TestNotFleeUntilOneSecond
         if (state.Field("playerSaw").GetValue<bool>())
         {
             state.Field("seesPlayer").SetValue(false);
+            state.Field("playerSees").SetValue(false);
 
             data.player = player;
             data.timer = LookAwayTime;
